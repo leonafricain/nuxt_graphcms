@@ -1,4 +1,5 @@
 export default {
+  target: 'static',
   head: {
     title: 'voting-app',
     htmlAttrs: {
@@ -40,10 +41,5 @@ export default {
     linkify: true,
     breaks: true,
     runtime: true,
-    
-    use: [
-      'markdown-it-div',
-      'markdown-it-attrs'
-    ]
   }
 }
