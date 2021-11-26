@@ -1,6 +1,6 @@
 <template>
   <header class="bg-blue-100 flex items-center justify-around py-2">
-    <h1 class="text-4xl font-bold text-center uppercase">My blog</h1>
+    <h1 class="text-4xl font-bold text-center uppercase">My blog et Baby</h1>
     <nav>
       <NuxtLink
         to="/"
