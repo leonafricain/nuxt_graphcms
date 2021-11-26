@@ -1,11 +1,14 @@
 <template>
-  <article class="container mx-auto p-8">
+ <div>
+   <div>Le Projet de Hakim</div>
+    <article class="container mx-auto p-8">
     <div v-for="post in posts" :key="post.id">
       <NuxtLink :to="`course/${post.id}`">
         {{ post.title }}
       </NuxtLink>
     </div>
   </article>
+ </div>
 </template>
 
 <script>
